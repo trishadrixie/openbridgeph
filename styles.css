@@ -3557,7 +3557,7 @@ body.careers-page .nav-inner {
   box-shadow: 0 6px 20px rgba(13,51,82,0.25);
   transition: background 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
   margin-left: auto;
-  margin-right: 41px;
+  margin-right: auto;
 }
 
 .btn-apply:hover {
@@ -3583,6 +3583,12 @@ body.careers-page .nav-inner {
   text-align: center;
   margin-bottom: 0.5rem;
   transform: translateX(60px);
+}
+
+@media (max-width: 640px) {
+  .apply-header-wrapper {
+    transform: translateX(0);
+  }
 }
 
 .apply-header-wrapper .small-header {
@@ -3744,7 +3750,7 @@ body.careers-page .nav-inner {
     height: 620px;
     transform: scale(0.57);
     transform-origin: top left;
-    margin-left: calc(50vw - (1366px * 0.57 / 2) - 2px);
+    margin-left: calc(50vw - (1366px * 0.57 / 2));
     margin-bottom: calc(-620px * 0.43);
   }
 
