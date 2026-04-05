@@ -120,7 +120,7 @@ const vaForm = document.getElementById('va-form');
 if (vaForm) {
   vaForm.addEventListener('submit', (e) => {
     e.preventDefault();
-    submitToFormspree(FORMSPREE_VA_ID, new FormData(vaForm), "Application received! We'll respond within 3–5 business days.");
+    submitToFormspree(FORMSPREE_VA_ID, new FormData(vaForm), "Application received! We'll be in touch soon.");
   });
 }
 
@@ -128,7 +128,7 @@ const entertainerForm = document.getElementById('entertainer-form');
 if (entertainerForm) {
   entertainerForm.addEventListener('submit', (e) => {
     e.preventDefault();
-    submitToFormspree(FORMSPREE_ENTERTAINER_ID, new FormData(entertainerForm), "We've got your details! Expect a message within 24 hours.");
+    submitToFormspree(FORMSPREE_ENTERTAINER_ID, new FormData(entertainerForm), "Thanks! We'll be in touch within 24 hours.");
   });
 }
 
