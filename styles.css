@@ -4897,6 +4897,9 @@ body:not(:has(.hero)) .nav::before {
   .about-hero-body br {
   display: none;
   }
+  .mobile-break br {
+  display: inline;
+}
   .about-hero-divider { margin: 1.5rem auto; }
   .about-hero-text .btn {
     align-self: center;
